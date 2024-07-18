@@ -1,0 +1,2 @@
+config SHIELD_YUGENCORNE
+    def_bool $(shields_list_contains, yugen)
