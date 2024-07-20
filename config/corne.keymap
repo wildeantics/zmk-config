@@ -53,7 +53,7 @@
             bindings = <
 &kp F1       &kp F2            &kp F3      &kp F4   &kp F5   &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &kp C_PREV   &kp C_PLAY_PAUSE  &kp C_NEXT  &trans   &trans   &trans    &trans  &trans  &trans  &trans   &trans   &trans
-&kp PAGE_UP  &kp PAGE_DOWN     &kp HOME    &kp END  &kp INS  &trans    &trans  &trans  &trans  &trans   &trans   &trans
+&kp PAGE_UP  &kp PAGE_DOWN     &kp HOME    &kp END  &kp INS  &trans    &tog 4  &trans  &trans  &trans   &trans   &trans
                                            &trans   &trans   &trans    &trans  &trans  &trans
             >;
         };
@@ -64,6 +64,15 @@
 &trans      &trans      &trans      &trans  &trans  &trans    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp KP_PLUS      &trans
 &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &trans  &trans  &trans    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp KP_DOT       &trans
                                     &trans  &trans  &trans    &trans           &trans           &trans
+            >;
+        };
+
+        qwerty_layer {
+            bindings = <
+&trans  &kp Q  &kp W  &kp E   &kp R   &kp T     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp A  &kp S  &kp D   &kp F   &kp G     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
